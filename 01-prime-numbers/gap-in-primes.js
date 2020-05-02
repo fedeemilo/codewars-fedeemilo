@@ -44,4 +44,4 @@ function gap(g, m, n) {
 	return null;
 }
 
-console.log(gap(10, 15, 47040));
+module.exports = gap;

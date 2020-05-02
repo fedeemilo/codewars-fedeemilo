@@ -1,4 +1,4 @@
-const { assertEqual } = require('./test');
+const { assertEqual } = require('../test');
 
 // const countFactorsObject = factoresPrimos.reduce(
 // 	(map, num) => ({

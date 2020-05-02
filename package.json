@@ -1,23 +1,24 @@
 {
-  "name": "codewars-fedeemilo",
-  "version": "1.0.0",
-  "description": "Possible solutions to some of the problems I have solved in Codewars",
-  "main": "app.js",
-  "dependencies": {
-    "chai": "^4.2.0"
-  },
-  "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/fedeemilo/codewars-fedeemilo.git"
-  },
-  "author": "Federico Milone",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/fedeemilo/codewars-fedeemilo/issues"
-  },
-  "homepage": "https://github.com/fedeemilo/codewars-fedeemilo#readme"
+	"name": "codewars-fedeemilo",
+	"version": "1.0.0",
+	"description": "Possible solutions to some of the problems I have solved in Codewars",
+	"main": "app.js",
+	"dependencies": {},
+	"devDependencies": {
+		"chai": "*",
+		"mocha": "^7.1.2"
+	},
+	"scripts": {
+		"test": "mocha"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/fedeemilo/codewars-fedeemilo.git"
+	},
+	"author": "Federico Milone",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/fedeemilo/codewars-fedeemilo/issues"
+	},
+	"homepage": "https://github.com/fedeemilo/codewars-fedeemilo#readme"
 }
