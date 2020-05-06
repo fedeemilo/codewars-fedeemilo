@@ -6,6 +6,9 @@ describe('Gap in Primes', function () {
 		assert.equal(primeGap(2, 100, 110).toString(), [101, 103]);
 	});
 	it('La función debe devolver: [103, 107]', function () {
-		assert.equal(primeGap(4,100,110).toString(), [103, 107]);
+		assert.equal(primeGap(4, 100, 110).toString(), [103, 107]);
+	});
+	it('La función debe devolver: null', function () {
+		assert.equal(primeGap(6, 100, 110), null);
 	});
 });
